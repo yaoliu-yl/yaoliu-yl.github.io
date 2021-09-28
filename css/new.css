@@ -1,0 +1,103 @@
+<!--load web font from Google-->
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700&v2' rel='stylesheet' type='text/css'>
+<style type="text/css">
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #E8E8E8;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+div.main {
+	/*put main content in a centered box*/
+	width: 55em; /*50%;*/
+	padding-top: 1.5em;
+	border: 1px solid gray;
+	margin: 3px auto;	   
+	background-color:#ffffff;
+}
+
+p {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+div.name{
+	padding-left: 1em;
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 3.5em;
+	color: #335C85;
+}
+
+H1{
+	font-family: helvetica, sans-serif;
+	font-size: 2em;
+	margin-top: 0.5em;
+	padding-left: 10px;
+}
+
+H2{
+	font-family: helvetica, sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 0.5em;
+	color: #006a4e;
+}
+
+img{
+	float: right;
+	margin-right: 3em;
+	margin-left: 3em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/*set styles for papers*/
+div.paper-s0{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	background-color: #F0F0F0;
+}
+
+div.paper-s1{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+}
+
+div.title{
+	margin-bottom: 0.6em;
+	font-weight: bold;
+}
+
+div.authors{
+	margin-bottom: 0.3em;
+}
+
+div.conf{
+	font-style:italic;
+}
+
+div.location{
+}
+
+div.footer {
+	text-align: right;
+	margin-right: 1em;
+}
+
+ul{
+	list-style-type: circle;
+	margin-left: 0px;
+	padding-left: 2em;
+}
+
+li.s0 {
+	margin-bottom: 0.3em;
+}
+
+li.s1{
+	margin-bottom: 0.3em;
+}
