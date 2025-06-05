@@ -1,0 +1,68 @@
+img { border:none; }
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 17px;
+  background-color: #EEEEEE;
+}
+
+h1 {font-weight: bold; font-size: 2.1em; color:#505050; }
+h2 {font-weight: bold; font-size: 1.5em; color:#E76F00; }
+/*ul {list-style:disc inside url(../images/css_tutorials/dot02.gif)}
+*/
+
+
+img.migobild { float:right; padding: 1em 0em 1ex 0;}
+
+table {
+  font-family: arial, sans-serif;
+  font-size: 17px;
+}
+
+div.body {
+	position: relative;
+	top: 20px;
+	left: 7%;
+	width: 82%;
+	background: #ffffff;
+	color: #000000;
+/*
+  margin: 0 auto;
+  margin-top: 2ex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2ex;
+  width:75%;
+  background: white;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2ex;
+  margin-bottom: 2ex;
+*/
+  border: black solid 2px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1ex;
+  padding-bottom: 1ex;
+
+}
+
+div.footer {
+  text-align: right;
+}
+
+li {
+  padding-bottom: 5pt;
+}
+
+
+.links td{
+  vertical-align:top;
+  padding: 0 1em 0 0;
+  margin-left:0;
+}
+
+.links a { text-decoration: none; /*display:block;*/ text-align:left;}
+
+

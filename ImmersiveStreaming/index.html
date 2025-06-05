@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en"> <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CAREER: System Research to Enable Practical Immersive Streaming: From 360-Degree Towards Volumetric Video
+                Delivery</title>
+        <link href="../css/new.css" rel="stylesheet" type="text/css">
+        <style>
+                img:hover {
+                        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+                }
+        </style>
+</head>
+
+<script src="../js/expander.js"></script>
+
+<body>
+        <div class="sticky-banner">
+                <ul>
+                        <li><a href="../index.html#home">Home</a></li>
+                        <li><a href="../index.html#projects">Projects</a></li>
+                        <li><a href="../index.html#publications">Publications</a></li>
+                        <li><a href="../index.html#students">Students</a></li>
+                        <li>
+                                <a href="https://github.com/symmru" target="_blank" class="github-banner-link">
+                                        <img src="../images/GitHub_Lockup_Light.png" alt="GitHub Logo"
+                                                class="banner-gh-logo">
+                                </a>
+                        </li>
+                </ul>
+        </div>
+
+        <div class="right-sticky-banner">
+        <h3>Quick Links</h3>
+        <ul>
+                <li><a href="#career-project-abstract">Abstract</a></li>
+                <li><a href="#datasets">Datasets</a></li>
+                <li><a href="#career-project-publications">Publications</a></li>
+        </ul>
+        </div>
+
+        <div class="main">
+                <table cellpadding="5">
+                        <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2200048">
+                                <img src="../images/NSF_Official_logo_High_Res_1200ppi.png"
+                                        style="width:180px;float:right;margin-right:1em;margin-top:0em;">
+                        </a>
+                        <tr>
+                                <td>
+                                        <div class="pagename" id="career-project-top">
+                                                CAREER: System Research to Enable Practical Immersive Streaming: From 360-Degree Towards Volumetric Video Delivery
+                                        </div>
+                                </td>
+                        </tr>
+                </table>
+
+
+                <h1 id="career-project-abstract">Abstract</h1>
+                <p>
+                        Immersive video technologies allow users to freely explore remote or virtual environments. For
+                        example, with 360-degree videos, users can view the scene from any orientation; with volumetric
+                        videos, users can control not only the view orientation but also the camera position. Such
+                        highly immersive content has applications in entertainment, medicine, education, manufacturing,
+                        and e-commerce, to name just a few areas. However, current video streaming infrastructure cannot
+                        fully support these emerging formats' high bandwidth, low latency, and high storage
+                        requirements. This project aims to address challenges in efficient transmission and storage of
+                        immersive video streams by proposing new, efficient representations of this content. These
+                        representations can both be adapted to fit users' viewing behaviors and can be generated at the
+                        low-latencies required for real-time streaming applications. If successful, the proposed
+                        research will enable higher quality immersive streaming than is possible with current systems,
+                        further enabling useful immersive streaming experiences.
+                </p>
+                <p>
+                        This project investigates techniques for improving efficiency of two specific immersive
+                        streaming applications. For real-time 360-degree video, the project will build a system to
+                        generate area-of-focus projections in real-time. These area-of-focus projections are selected to
+                        align the high-quality focus area with a predicted user view. Low-latency generation is achieved
+                        using graphics processing units at nearby edge or cloud servers. For volumetric video streaming,
+                        this project aims to create both a storage- and bandwidth-efficient representation of the video.
+                        The representation consists of both area-of-focus versions of the video at a selected set of
+                        points within the volume as well as patches to cover dis-occluded pixels, allowing high-quality
+                        video to be delivered to users positioned anywhere in the scene. The proposed system further
+                        uses a Hypertext Transfer Protocol Version 2 (HTTP/2) transmission approach to support
+                        bandwidth-efficient delivery of this representation. To more precisely measure the user's true
+                        experience of immersive streams, this project will also create immersive video streaming
+                        datasets and investigate a new quality metric. This new metric will use novel approaches to
+                        correlate user-perceived qualities with visual artifacts introduced due to encoding and network
+                        transmission.
+                </p>
+                <p>
+                        Artifacts produced as a result of this project, including publications, code, and datasets, will
+                        be made publicly available at <strong><a href="https://yaoliu-yl.github.io/ImmersiveStreaming/"
+                                                        target="_blank" class="repo-link">https://yaoliu-yl.github.io/ImmersiveStreaming/</a></strong>. These
+                        artifacts will be maintained for at least five years after completion of the project.
+                </p>
+
+                <div id="datasets">
+                        <H1> Datasets </H1>
+                        <ul class="project-highlight-list">
+                                <li>
+                                        <strong><a href="http://symmru.github.io/EyeNavGS"
+                                                        target="_blank" class="repo-link">
+                                                        <img src="../images/GitHub_Invertocat_Dark.png" alt="GitHub icon"
+                                                                class="repo-list-gh-logo">
+                                                        👁️NavGS: A 6-DoF Navigation Dataset and Record-n-Replay Software for Real-World 3DGS Scenes in VR
+                                                </a></strong>
+                                        <p class="project-description">
+                                                👁️NavGS (EyeNavGS) is the first publicly available free-world 6-DoF navigation dataset featuring head/eye tracking from 46 participants in 12 
+                                                real-world 3DGS scenes (using Meta Quest Pro). The 3DGS scenes are corrected for scene tilt and scale for a perceptually-comfortable VR experience. 
+                                        </p>
+                                </li>
+                                <li>
+                                        <strong><a href="https://6-dof-dynamic-content-software.github.io/"
+                                                        target="_blank" class="repo-link">
+                                                        <img src="../images/GitHub_Invertocat_Dark.png" alt="GitHub icon"
+                                                                class="repo-list-gh-logo">Dynamic 6-DoF Volumetric
+                                                        Video Generation: Software Toolkit and Dataset
+                                                </a></strong>
+                                        <p class="project-description">
+                                                A software toolkit and dataset for dynamic 6-DoF volumetric video
+                                                generation, supporting research in immersive video. Both the dataset and
+                                                the software for generating the dataset are available.
+                                        </p>
+                                </li>
+                        </ul>
+                </div>
+
+                <h1 id="career-project-publications">Publications</h1>
+                <div class="paper-s0">
+                        <div class="publication-entry">
+                                <div class="publication-details">
+                                        <div class="title">
+                                                SGSS: Streaming 6-DoF Navigation of Gaussian Splat Scenes
+                                                [<a href="../publications/mmsys25-sgss.pdf">paper</a>]
+                                                [<a href="https://github.com/symmru/SGSS">source code</a>]
+                                                <br>
+                                        </div>
+                                        <div class="authors">
+                                                Mufeng Zhu, Mingju Liu, Cunxi Yu, Cheng-Hsin Hsu, <strong>Yao
+                                                        Liu</strong>
+                                        </div>
+                                        <div class="conf">
+                                                Proceedings of the 16th ACM Multimedia Systems Conference (Full
+                                                Research Paper)
+                                                (<a href="https://2025.acmmmsys.org/">MMSys 2025</a>)
+                                        </div>
+                                        <div class="location">
+                                                Stellenbosch, South Africa, March 31 - April 4, 2025
+                                        </div>
+                                </div>
+                                <div class="publication-image-container">
+                                        <img src="../images/publications/sgss.png"
+                                                alt="SGSS: Streaming 6-DoF Navigation of Gaussian Splat Scenes"
+                                                class="publication-image expandable-image">
+                                </div>
+                        </div>
+                </div>
+
+                <div class="paper-s1">
+                        <div class="publication-entry">
+                                <div class="publication-details">
+                                        <div class="title">
+                                                EVASR: Edge-Based Salience-Aware Super-Resolution for Enhanced
+                                                Video Quality and Power Efficiency
+                                                [<a href="../publications/tomm-evasr.pdf">paper</a>]
+                                                [<a href="https://github.com/symmru/EVASR_MMsys2023">source
+                                                        code</a>]
+                                                <br>
+                                        </div>
+                                        <div class="authors">
+                                                Na Li, Zichen Zhu, Sheng Wei, <strong>Yao Liu</strong>
+                                        </div>
+                                        <div class="conf">
+                                                ACM Transactions on Multimedia Computing, Communications, and
+                                                Applications
+                                                (<a href="https://tomm.acm.org/">TOMM</a>)
+                                        </div>
+                                        <div class="location">
+                                                Accepted on December 2024
+                                        </div>
+                                </div>
+                                <div class="publication-image-container">
+                                        <img src="../images/publications/EVASR-1.png" alt="EVASR-1"
+                                                class="publication-image expandable-image">
+                                        <img src="../images/publications/EVASR-3.png" alt="EVASR-3"
+                                                class="publication-image expandable-image">
+                                </div>
+                        </div>
+                </div>
+
+                <div class="paper-s0">
+                        <div class="title">
+                                Dynamic 6-DoF Volumetric Video Generation: Software Toolkit and Dataset
+                                [<a href="../publications/mmsp24-dataset.pdf">paper</a>]
+                                [<a href="https://6-dof-dynamic-content-software.github.io/">project page</a>]
+                                <br>
+                        </div>
+                        <div class="authors">
+                                Mufeng Zhu, Yuan-Chun Sun, Na Li, Jin Zhou, Songqing Chen, Cheng-Hsin Hsu, <strong>Yao
+                                        Liu</strong>
+                        </div>
+                        <div class="conf">
+                                Proceedings of the 26th IEEE International Workshop on Multimedia Signal Processing
+                                (<a href="https://attend.ieee.org/mmsp-2024/">MMSP 2024</a>)
+                        </div>
+                        <div class="location">
+                                Lafayette, IN, October 2-4, 2024
+                        </div>
+                </div>
+
+                <div class="paper-s1">
+                        <div class="title">
+                                RoIRTC: Toward Region-of-Interest Reinforced Real-Time Video Communication
+                                [<a href="../publications/icme2024-roirtc.pdf">paper</a>]
+                                [<a href="https://github.com/bingsyslab/RoIRTC">source code</a>]
+                                <br>
+                        </div>
+                        <div class="authors">
+                                Shuoqian Wang, Mengbai Xiao, <strong>Yao Liu</strong>
+                        </div>
+                        <div class="conf">
+                                Proceedings of the 2024 IEEE International Conference on Multimedia and Expo
+                                (<a href="https://2024.ieeeicme.org/">ICME 2024</a>)
+                        </div>
+                        <div class="location">
+                                Niagara Falls, Canada, July 15-19, 2024
+                        </div>
+                </div>
+
+                <div class="paper-s0">
+                        <div class="title">
+                                A Comparative Study of K-Planes vs. V-PCC for 6-DoF Volumetric Video Representation
+                                [<a href="../publications/mmve2024-kplanes-vpcc.pdf">paper</a>]
+                                [<a href="https://github.com/symmru/MMVE-2024">repository</a>]
+                                <br>
+                        </div>
+                        <div class="authors">
+                                Na Li, Mufeng Zhu, Shuoqian Wang, <strong>Yao Liu</strong>
+                        </div>
+                        <div class="conf">
+                                Proceedings of the 16th International Workshop on Immersive Mixed and Virtual
+                                Environment Systems
+                                (<a href="https://mmve-workshop.org/2024/">MMVE 2024</a>)
+                        </div>
+                        <div class="location">
+                                Bari, Italy, April 15, 2024
+                        </div>
+                </div>
+
+                <div class="paper-s1">
+                        <div class="title">
+                                VertexShuffle-Based Spherical Super-Resolution for 360-Degree Videos
+                                [<a href="../publications/tomm-vertexshuffle.pdf">paper</a>]
+                                [<a href="https://github.com/symmru/SSR">source code</a>]
+                                <br>
+                        </div>
+                        <div class="authors">
+                                Na Li, <strong>Yao Liu</strong>
+                        </div>
+                        <div class="conf">
+                                ACM Transactions on Multimedia Computing, Communications, and Applications
+                                (<a href="https://tomm.acm.org/">TOMM</a>)
+                        </div>
+                        <div class="location">
+                                Accepted on February 2024
+                        </div>
+                </div>
+
+                <div class="paper-s0">
+                        <div class="title">
+                                VQBA: Visual-Quality-Driven Bit Allocation for Low-Latency Point Cloud Streaming
+                                [<a href="../publications/mm23-vqba.pdf">paper</a>]
+                                <br>
+                        </div>
+                        <div class="authors">
+                                Shuoqian Wang, Mufeng Zhu, Na Li, Mengbai Xiao, <strong>Yao Liu</strong>
+                        </div>
+                        <div class="conf">
+                                Proceedings of the 31st ACM International Conference on Multimedia (Full Research Paper)
+                                (<a href="https://www.acmmm2023.org/">MM 2023</a>)
+                        </div>
+                        <div class="location">
+                                Ottawa, Canada, October 29-November 3, 2023
+                        </div>
+                </div>
+
+                <div class="paper-s1">
+                        <div class="publication-entry">
+                                <div class="publication-details">
+                                        <div class="title">
+                                                EVASR: Edge-Based Video Delivery with Salience-Aware
+                                                Super-Resolution
+                                                [<a href="../publications/mmsys23-evasr.pdf">paper</a>]
+                                                [<a href="https://github.com/symmru/EVASR_MMsys2023">source
+                                                        code</a>]
+                                                <br>
+                                        </div>
+                                        <div class="authors">
+                                                Na Li, <strong>Yao Liu</strong>
+                                        </div>
+                                        <div class="conf">
+                                                Proceedings of the 14th ACM Multimedia Systems Conference (Full
+                                                Research Paper)
+                                                (<a href="https://2023.acmmmsys.org/">MMSys 2023</a>)
+                                        </div>
+                                        <div class="location">
+                                                Vancouver, Canada, June 7 - 10, 2023
+                                        </div>
+                                </div>
+                                <div class="publication-image-container">
+                                        <img src="../images/publications/EVASR-1.png" alt="EVASR-1"
+                                                class="publication-image expandable-image">
+                                        <img src="../images/publications/EVASR-2.png" alt="EVASR-2"
+                                                class="publication-image expandable-image">
+                                </div>
+                        </div>
+                </div>
+
+                <div class="paper-s0">
+                        <div class="title">
+                                Exploring Spherical Autoencoder for Spherical Video Content Processing
+                                [<a href="../publications/mm22-sae.pdf">paper</a>]
+                                <br>
+                        </div>
+                        <div class="authors">
+                                Jin Zhou, Na Li, <strong>Yao Liu</strong>, Shuochao Yao, Songqing Chen
+                        </div>
+                        <div class="conf">
+                                Proceedings of the 30th ACM International Conference on Multimedia
+                                (<a href="https://2022.acmmm.org/">MM 2022</a>)
+                        </div>
+                        <div class="location">
+                                Lisbon, Portugal, October 10 - 14, 2022
+                        </div>
+                </div>
+
+                <div class="paper-s1">
+                        <div class="publication-entry">
+                                <div class="publication-details">
+                                        <div class="title">
+                                                A Smartphone Thermal Temperature Analysis for Virtual and Augmented
+                                                Reality
+                                                [<a href="../publications/aivr20.pdf">paper</a>]
+                                                <br>
+                                        </div>
+                                        <div class="authors">
+                                                Xiaoyang Zhang, Harshit Vadodaria, Na Li, Kyoung-Don Kang, <strong>Yao
+                                                        Liu</strong>
+                                        </div>
+                                        <div class="conf">
+                                                Proceedings of the 3rd International Conference on
+                                                Artificial Intelligence and Virtual Reality
+                                                (<a href="https://aivr.science.uu.nl/">AIVR 2020</a>)
+                                        </div>
+                                        <div class="location">
+                                                Virtual/Online Event, December 14-18, 2020
+                                        </div>
+                                </div>
+                                <div class="publication-image-container">
+                                        <img src="../images/publications/ar-thermal.png" alt="A Smartphone Thermal Temperature Analysis for Virtual and
+Augmented Reality" class="publication-image expandable-image">
+                                </div>
+                        </div>
+                </div>
+
+                <div class="paper-s0">
+                        <div class="publication-entry">
+                                <div class="publication-details">
+                                        <div class="title">
+                                                SphericRTC: A System for Content-Adaptive Real-Time 360-Degree Video
+                                                Communication
+                                                [<a href="../publications/mm20-sphericrtc.pdf">paper</a>]
+                                                [<a href="https://github.com/bingsyslab/SphericRTC"
+                                                        target="_blank">source code</a>]
+                                                <br>
+                                        </div>
+                                        <div class="authors">
+                                                Shuoqian Wang, Xiaoyang Zhang, Mengbai Xiao, Kenneth Chiu, <strong>Yao
+                                                        Liu</strong>
+                                        </div>
+                                        <div class="conf">
+                                                Proceedings of the 28th ACM International Conference on Multimedia (Full
+                                                Research Paper)
+                                                (<a href="https://2020.acmmm.org/">MM 2020</a>)
+                                        </div>
+                                        <div class="location">
+                                                Seattle, WA, October 12-16, 2020
+                                        </div>
+                                </div>
+                                <div class="publication-image-container">
+                                        <img src="../images/publications/SphericRTC.png" alt="SphericRTC"
+                                                class="publication-image expandable-image">
+                                </div>
+
+                        </div>
+                </div>
+                </script>
+
+</body>
+
+</html>

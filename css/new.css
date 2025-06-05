@@ -1,0 +1,460 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #E8E8E8;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+div.main {
+	width: 55em;
+	padding-top: 1.5em;
+	border: 1px solid gray;
+	margin: 3px auto;
+	background-color: #ffffff;
+}
+
+p {
+	padding-left: 1em;
+	padding-right: 1em;
+	line-height: 1.5;
+}
+
+.address-link {
+    color: inherit;
+    text-decoration: none; 
+}
+
+.address-link:hover {
+    text-decoration: underline;
+}
+
+div.pagename {
+	padding-left: 1em;
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+	color: #335C85;
+}
+
+div.name {
+	padding-left: 1em;
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 3.5em;
+	color: #335C85;
+}
+
+H1 {
+	font-family: helvetica, sans-serif;
+	font-size: 2em;
+	margin-top: 0.5em;
+	padding-left: 10px;
+}
+
+H2 {
+	font-family: helvetica, sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 0.5em;
+	color: #006a4e;
+}
+
+img.migobild {
+	float: right;
+	margin-right: 3em;
+	margin-left: 3em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+div.paper-s0 {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	background-color: #F0F0F0;
+}
+
+div.paper-s1 {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+}
+
+div.title {
+	margin-bottom: 0.6em;
+	font-weight: bold;
+}
+
+div.authors {
+	margin-bottom: 0.3em;
+}
+
+div.conf {
+	font-style: italic;
+}
+
+div.location {}
+
+div.footer {
+	text-align: right;
+	margin-right: 1em;
+}
+
+ul {
+	list-style-type: circle;
+	margin-left: 0px;
+	padding-left: 2em;
+}
+
+li.s0 {
+	margin-bottom: 0.3em;
+}
+
+li.s1 {
+	margin-bottom: 0.3em;
+}
+
+.publication-entry,
+.publication-details,
+.publication-image-container,
+.publication-image {
+	box-sizing: border-box;
+}
+
+.publication-entry {
+	display: flex;
+	align-items: flex-start;
+	gap: 1.5em;
+}
+
+.publication-details {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+	min-width: 0;
+}
+
+.publication-details .title,
+.publication-details .authors,
+.publication-details .conf,
+.publication-details .location {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+
+.publication-image-container {
+	flex-grow: 0;
+	flex-shrink: 0;
+	width: 220px;
+	margin-right: 1em;
+}
+
+.publication-image {
+	width: 100%;
+	height: auto;
+	display: block;
+	border: 1px solid #ddd;
+}
+
+.expandable-image {
+	cursor: pointer;
+}
+
+.publication-image-container.expanded {
+	width: 450px;
+	/* max-width: 90%; */
+}
+
+a {
+    color: #0066CC;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #004C99;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.sticky-banner {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #335C85;
+	padding: 15px 0;
+	text-align: center;
+	z-index: 1000;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sticky-banner ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sticky-banner li {
+	display: inline;
+	margin: 0 15px;
+}
+
+.sticky-banner a {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.sticky-banner a:hover {
+	text-decoration: underline;
+}
+
+body {
+	padding-top: 60px;
+	margin: 0;
+	background-color: #E8E8E8;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#home,
+#publications,
+#projects,
+#students,
+#abstract,
+#career-project-abstract,
+#datasets,
+#career-project-publications {
+	padding-top: 70px;
+	margin-top: -60px;
+}
+
+.banner-gh-logo {
+	height: 1.1em;
+	width: auto;
+	position: relative; 
+    top: -0.1em;    
+}
+
+.github-banner-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+	vertical-align: middle;
+}
+
+.github-org-entry h2 {
+	font-family: helvetica, sans-serif;
+	font-size: 1.4em;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+	text-align: left;
+	color: #333;
+}
+
+.github-org-entry h2 a {
+	color: #335C85;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.github-org-entry h2 a:hover {
+	text-decoration: underline;
+}
+
+.github-org-entry p {
+	padding-left: 0;
+	margin-bottom: 0.5em;
+	line-height: 1.6;
+}
+
+.projects-heading {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	font-size: 1.05em;
+	color: #444;
+}
+
+ul.project-highlight-list {
+	list-style-type: disc;
+	margin-left: 20px;
+	padding-left: 1em;
+	margin-top: 0.5em;
+}
+
+ul.project-highlight-list li {
+	margin-bottom: 1.2em;
+}
+
+ul.project-highlight-list li strong a {
+	font-weight: bold;
+	color: #006a4e;
+	text-decoration: none;
+	font-size: 1.1em;
+}
+
+ul.project-highlight-list li strong a:hover {
+	text-decoration: underline;
+}
+
+ul.project-highlight-list li strong a.repo-link { 
+    display: inline-flex; 
+    align-items: center; 
+    gap: 6px;
+	vertical-align: middle;
+}
+
+.project-description {
+	font-size: 0.95em;
+	color: #333;
+	margin-top: 0.3em;
+	margin-left: 0;
+	padding-left: 0;
+	line-height: 1.5;
+}
+
+.repo-list-gh-logo {
+	height: 1em;
+	width: auto;
+	/* display: block; */
+}
+
+.students-subsection {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 2em;
+}
+
+.students-subsection h2 {
+	font-family: helvetica, sans-serif;
+	font-size: 1.5em;
+	color: #335C85;
+	margin-top: 1em;
+	margin-bottom: 0.8em;
+	padding-left: 0;
+	text-align: left;
+}
+
+.student-list {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.student-list li {
+	margin-bottom: 1.5em;
+	font-size: 1em;
+	line-height: 1.6;
+}
+
+
+.student-entry {
+	padding-left: 10px;
+	border-left: 3px solid #cccccc;
+	margin-bottom: 1em;
+}
+
+.student-name-link {
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #333;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 0.3em;
+}
+
+.student-name-link:hover {
+	color: #006a4e;
+	text-decoration: underline;
+}
+
+.student-joined-date {
+	font-size: 0.9em;
+	color: #333333;
+	margin-left: 0.75em;
+}
+
+.dissertation-title,
+.defense-date {
+	margin-left: 10px;
+	font-size: 0.95em;
+	color: #333333;
+	margin-bottom: 0.25em;
+}
+
+.dissertation-title {
+	font-style: italic;
+}
+
+.award-text-highlight {
+	color: #006a4e;
+	font-weight: bold;
+}
+
+.right-sticky-banner {
+    position: fixed;
+    top: 80px;
+    right: 25px;
+    width: 180px;
+    background: linear-gradient(to bottom right, #f8fbff, #e0eaf6);
+    padding: 16px;
+    border: 1px solid #b3c5e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    z-index: 999;
+}
+
+.right-sticky-banner h3 {
+    font-size: 1.05em;
+    color: #335c85;
+    margin: 0 0 12px 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #b3c5e0;
+    font-weight: bold;
+}
+
+.right-sticky-banner ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.right-sticky-banner ul li {
+    margin-bottom: 8px;
+}
+
+.right-sticky-banner ul li a {
+    display: block;
+    padding: 8px 10px;
+    font-size: 0.92em;
+    color: #335c85;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.right-sticky-banner ul li a:hover {
+    background-color: #335c85;
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+@media (max-width: 1024px) { 
+    .right-sticky-banner {
+        display: none; 
+    }
+}
+
+@media (max-width: 800px) { 
+    .right-sticky-banner {
+        display: none;
+    }
+    div.main {
+        padding-right: 1em; 
+    }
+}
