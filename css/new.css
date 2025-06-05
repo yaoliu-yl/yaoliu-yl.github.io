@@ -444,13 +444,8 @@ ul.project-highlight-list li strong a.repo-link {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12);
 }
 
-@media (max-width: 1024px) { 
-    .right-sticky-banner {
-        display: none; 
-    }
-}
 
-@media (max-width: 800px) { 
+@media (max-width: 1500px) { 
     .right-sticky-banner {
         display: none;
     }
